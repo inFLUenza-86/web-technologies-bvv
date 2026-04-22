@@ -2,10 +2,69 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.test {
-    color: yellow !important;
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
 }
 
-.test {
-    color: red !important;
+.title1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.title2_contacts {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.title3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.title4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input-field {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.submit-button {
+    background: linear-gradient(to right, #61b3ff, #c7aeff);
+    /*box-shadow: 5px 20px 50px rgba(18, 132, 208, 0.2);*/
+    border-radius: 5px;
+    border-width: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.feedback-form {
+    width: 400px;
+    background-image: url('../img/texture.jpg');
+}
+
+.breadcrumb ul {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    background: linear-gradient(to top, #2f7563, #ade1d4);
+    width: 150px;
+}
+
+.breadcrumb span {
+    display: inline-block;
+    padding: 0px;
+    margin: 2px;
 }
